@@ -33,7 +33,7 @@ CREATE TABLE client
     nb_personnes int2 NULL  ,
     duree_location int2 NULL  ,
     date_courrier date NULL ,
-    montant_accompte  decimal(10,0) default 0,
+    accompte_verse  decimal(10,0) default 0,
     num_emplacement int4 NOT NULL  ,
     num_semaine_arrivee int4 NOT NULL  ,	
    CONSTRAINT PK_client PRIMARY KEY (num_client)
